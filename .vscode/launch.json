@@ -5,8 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Program",
+            "name": "Launch Program - TypeScript",
             "program": "${workspaceFolder}/dist/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Program - fibonacci (JavaScript)",
+            "program": "${workspaceFolder}/src/fibonacci.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"

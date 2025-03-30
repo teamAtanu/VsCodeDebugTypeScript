@@ -1,4 +1,5 @@
 import { Graph } from './Graph';
+
 console.log('Hello, This is a TypeScript project.');
 
 const graph = new Graph();
@@ -13,3 +14,4 @@ graph.addEdge("E", "A", 7);
 const shortestPath = graph.findShortestPath("A", "E");
 console.log("Shortest Distance:", shortestPath.distance);
 console.log("Path:", shortestPath.path);
+
