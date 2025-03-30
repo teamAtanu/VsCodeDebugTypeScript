@@ -1,0 +1,18 @@
+{
+  "name": "vscodedebugtypescript",
+  "version": "1.0.0",
+  "description": "Template Project for Setting Up a TypeScript Development Environment in Node.js Using VS Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atanu Banik",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+
+  }
+}
